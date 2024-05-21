@@ -40,19 +40,13 @@ export const ProjectView = ({
       </div>
       <div className="flex mb-8 items-center justify-between">
         <div className="flex-1">
-          <Link
-            className="text-xs md:text-base"
-            href={`${backUri}/${kebabCase(prevTitle).toLowerCase()}`}
-          >
+          <Link href={`${backUri}/${kebabCase(prevTitle).toLowerCase()}`}>
             {'<'} {prevTitle}
           </Link>
         </div>
 
         <div className="flex-1 flex justify-end">
-          <Link
-            className="text-xs md:text-base"
-            href={`${backUri}/${kebabCase(nextTitle).toLowerCase()}`}
-          >
+          <Link href={`${backUri}/${kebabCase(nextTitle).toLowerCase()}`}>
             {nextTitle} {'>'}
           </Link>
         </div>
