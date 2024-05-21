@@ -1,4 +1,4 @@
-const data = [
+export const data: Project[] = [
   {
     title: 'Pocket Space Pinball',
     website: 'https://dwhiffing.itch.io/pocket-space-pinball',
@@ -258,5 +258,3 @@ const data = [
     year: 2015,
   },
 ]
-
-exports.data = data

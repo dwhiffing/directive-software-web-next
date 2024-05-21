@@ -1,4 +1,4 @@
-const data = [
+export const data: Project[] = [
   // {
   //   title: 'onehundred',
   //   website: 'http://www.onehund.red/dogs',
@@ -42,5 +42,3 @@ const data = [
     year: 2019,
   },
 ]
-
-exports.data = data

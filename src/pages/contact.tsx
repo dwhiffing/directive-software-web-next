@@ -1,5 +1,10 @@
 import Layout from '@/components/Layout'
-import contactData from '../data/contact'
+
+const contactData = {
+  github: 'https://github.com/dwhiffing',
+  linkedin: 'https://www.linkedin.com/in/daniel-whiffing-b2295ba7',
+  email: 'mailto:danielwhiffing@gmail.com',
+}
 
 export default function Games() {
   return (
