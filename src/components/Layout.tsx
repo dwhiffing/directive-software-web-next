@@ -17,6 +17,14 @@ const Layout = ({
         <title>Directive Software | {title}</title>
         <meta name="description" content="Directive Software" />
         <meta name="author" content="Daniel Whiffing" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://directive.software" />
+        <meta property="og:title" content={`Directive Software | ${title}`} />
+        <meta property="og:description" content="Directive Software" />
+        <meta
+          property="og:image"
+          content="https://directive.software/meta.png"
+        />
       </Head>
 
       <div className="flex flex-col flex-1 justify-between">
