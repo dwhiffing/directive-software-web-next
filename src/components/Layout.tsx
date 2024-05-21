@@ -12,7 +12,9 @@ const Layout = ({
   children: ReactNode
 }) => {
   return (
-    <main className={`flex flex-col min-h-screen max-w-6xl mx-auto bg-white`}>
+    <main
+      className={`flex flex-col min-h-screen max-w-6xl px-4 mx-auto bg-white`}
+    >
       <Head>
         <title>Directive Software | {title}</title>
         <meta name="description" content="Directive Software" />
@@ -46,13 +48,13 @@ export default Layout
 
 function Header() {
   return (
-    <header className="w-full py-10 flex items-center justify-between flex-col sm:flex-row mx-auto">
+    <header className="w-full py-10 flex items-center justify-between flex-col gap-8 sm:flex-row mx-auto">
       <div className="flex-3">
         <Link className="text-black text-sm" href="/games/">
           <Image alt="logo" height={50} src={logo} className="mb-0" />
         </Link>
       </div>
-      <nav className="flex-1 max-w-[400px] flex justify-between uppercase">
+      <nav className="flex-1 justify-end flex gap-6 uppercase">
         <Link className="text-black text-sm" href="/games/">
           Games
         </Link>

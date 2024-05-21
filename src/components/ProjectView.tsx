@@ -32,28 +32,35 @@ export const ProjectView = ({
   return (
     <Layout title={project.title}>
       <div className="flex mb-8 items-center justify-between">
-        <div className="flex-1">
-          <Link href={`${backUri}/${kebabCase(prevTitle).toLowerCase()}`}>
-            {prevTitle}
-          </Link>
-        </div>
-
         <div className="flex-1 flex justify-center">
           <h6>
             <Link href={backUri}>{label}</Link> / {project.title}
           </h6>
         </div>
+      </div>
+      <div className="flex mb-8 items-center justify-between">
+        <div className="flex-1">
+          <Link
+            className="text-xs md:text-base"
+            href={`${backUri}/${kebabCase(prevTitle).toLowerCase()}`}
+          >
+            {'<'} {prevTitle}
+          </Link>
+        </div>
 
         <div className="flex-1 flex justify-end">
-          <Link href={`${backUri}/${kebabCase(nextTitle).toLowerCase()}`}>
-            {nextTitle}
+          <Link
+            className="text-xs md:text-base"
+            href={`${backUri}/${kebabCase(nextTitle).toLowerCase()}`}
+          >
+            {nextTitle} {'>'}
           </Link>
         </div>
       </div>
 
       <div className="my-2 flex flex-col gap-4 sm:flex-row items-center">
         <a
-          className="relative w-[500px] aspect-[20/15]"
+          className="relative w-full max-w-[500px] aspect-[20/15]"
           href={project.website}
           target="_new"
         >

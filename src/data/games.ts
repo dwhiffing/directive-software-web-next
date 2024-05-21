@@ -1,7 +1,7 @@
 export const data: Project[] = [
   {
     title: 'Painty Virus',
-    website: 'https://dwhiffing.itch.io/painty-vrius',
+    website: 'https://dwhiffing.itch.io/painty-virus',
     description: `Built With Phaser.js. A win95 themed action game.`,
     year: 2024,
   },
