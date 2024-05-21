@@ -26,7 +26,7 @@ const ProjectListItem = (props: { category: string; project: Project }) => {
 
   return (
     <Link
-      className={`relative justify-end aspect-[20/13] flex flex-col flex-1 bg-gray-200`}
+      className={`relative justify-end aspect-[20/15] flex flex-col flex-1 bg-gray-200`}
       href={`/${props.category}/${slug}`}
     >
       <Image

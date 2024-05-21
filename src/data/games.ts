@@ -1,5 +1,11 @@
 export const data: Project[] = [
   {
+    title: 'Painty Virus',
+    website: 'https://dwhiffing.itch.io/painty-vrius',
+    description: `Built With Phaser.js. A win95 themed action game.`,
+    year: 2024,
+  },
+  {
     title: 'Pocket Space Pinball',
     website: 'https://dwhiffing.itch.io/pocket-space-pinball',
     description: `Built With Phaser.js GBJam11. A space themed pinball game.`,

@@ -53,7 +53,7 @@ export const ProjectView = ({
 
       <div className="my-2 flex flex-col gap-4 sm:flex-row items-center">
         <a
-          className="relative w-[500px] aspect-[20/12]"
+          className="relative w-[500px] aspect-[20/15]"
           href={project.website}
           target="_new"
         >
