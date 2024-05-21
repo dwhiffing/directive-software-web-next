@@ -4,7 +4,7 @@ import logo from '../../public/assets/white-favicon.png'
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout title="home">
       <div
         className="flex h-[400px] justify-center items-center relative"
         style={{
