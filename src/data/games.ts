@@ -1,5 +1,17 @@
 export const data: Project[] = [
   {
+    title: 'Final Lift',
+    website: 'https://dwhiffing.github.io/final-lift-js13k',
+    description: `Built With Kontra.js for JS13k 2024. A horror themed puzzle game.`,
+    year: 2024,
+  },
+  {
+    title: 'Microsquash',
+    website: 'https://dwhiffing.itch.io/microsquash',
+    description: `Built With Phaser.js for LowRezJam 2024. A 64x64 sports game.`,
+    year: 2024,
+  },
+  {
     title: 'Painty Virus',
     website: 'https://dwhiffing.itch.io/painty-virus',
     description: `Built With Phaser.js. A win95 themed action game.`,
