@@ -12,6 +12,12 @@ export const data: Project[] = [
     year: 2024,
   },
   {
+    title: 'Hack the Planet',
+    website: 'https://dwhiffing.itch.io/hack-the-planet',
+    description: `Built With React. An incremental hacking game`,
+    year: 2024,
+  },
+  {
     title: 'Painty Virus',
     website: 'https://dwhiffing.itch.io/painty-virus',
     description: `Built With Phaser.js. A win95 themed action game.`,
