@@ -1,5 +1,23 @@
 export const data: Project[] = [
   {
+    title: 'Snow Motion',
+    website: 'https://dwhiffing.itch.io/snow-motion',
+    description: `Built With Phaser.js for 1-Bit Jam 2025. An winter themed endless runner.`,
+    year: 2025,
+  },
+  {
+    title: 'Sentient Edge',
+    website: 'https://dwhiffing.itch.io/sentient-edge',
+    description: `Built With Phaser.js for Pirate Jam 2025. A minimal action RPG.`,
+    year: 2025,
+  },
+  {
+    title: "Astrid's Apothecary",
+    website: 'https://dwhiffing.itch.io/astrids-apothecary',
+    description: `Built With Phaser.js for GB Jam 12. A potion brewing puzzle game.`,
+    year: 2025,
+  },
+  {
     title: 'Final Lift',
     website: 'https://dwhiffing.github.io/final-lift-js13k',
     description: `Built With Kontra.js for JS13k 2024. A horror themed puzzle game.`,
