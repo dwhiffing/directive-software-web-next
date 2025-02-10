@@ -7,7 +7,7 @@ import capitalize from 'lodash/capitalize'
 
 export const ProjectList = (props: { items: Project[]; category: string }) => (
   <Layout title={capitalize(props.category)}>
-    <div className="flex-1 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="flex-1 flex flex-wrap justify-center gap-4">
       {props.items.map((project, index) => (
         <ProjectListItem
           key={index}
@@ -26,7 +26,7 @@ const ProjectListItem = (props: { category: string; project: Project }) => {
 
   return (
     <Link
-      className={`relative justify-end aspect-[20/15] flex flex-col flex-1 bg-gray-200`}
+      className={`relative justify-end aspect-[20/15] flex flex-col w-[400px] bg-gray-200`}
       href={`/${props.category}/${slug}`}
     >
       <Image

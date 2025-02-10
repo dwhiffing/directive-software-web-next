@@ -13,7 +13,7 @@ const Layout = ({
 }) => {
   return (
     <main
-      className={`flex flex-col min-h-screen max-w-6xl px-4 mx-auto bg-white`}
+      className={`flex flex-col min-h-screen max-w-[1264px] px-4 mx-auto bg-white`}
     >
       <Head>
         <title>Directive Software | {title}</title>
