@@ -9,12 +9,14 @@ export const data: Project[] = [
     title: 'Sentient Edge',
     website: 'https://dwhiffing.itch.io/sentient-edge',
     description: `Built With Phaser.js for Pirate Jam 2025. A minimal action RPG.`,
+    pixelArt: true,
     year: 2025,
   },
   {
     title: "Astrid's Apothecary",
     website: 'https://dwhiffing.itch.io/astrids-apothecary',
     description: `Built With Phaser.js for GB Jam 12. A potion brewing puzzle game.`,
+    pixelArt: true,
     year: 2025,
   },
   {
@@ -27,6 +29,7 @@ export const data: Project[] = [
     title: 'Microsquash',
     website: 'https://dwhiffing.itch.io/microsquash',
     description: `Built With Phaser.js for LowRezJam 2024. A 64x64 sports game.`,
+    pixelArt: true,
     year: 2024,
   },
   {
@@ -39,12 +42,14 @@ export const data: Project[] = [
     title: 'Painty Virus',
     website: 'https://dwhiffing.itch.io/painty-virus',
     description: `Built With Phaser.js. A win95 themed action game.`,
+    pixelArt: true,
     year: 2024,
   },
   {
     title: 'Pocket Space Pinball',
     website: 'https://dwhiffing.itch.io/pocket-space-pinball',
     description: `Built With Phaser.js GBJam11. A space themed pinball game.`,
+    pixelArt: true,
     year: 2023,
   },
   {
@@ -63,6 +68,7 @@ export const data: Project[] = [
     title: 'Clockwork Harvest',
     website: 'https://dwhiffing.github.io/clockwork-harvest',
     description: `Built With Phaser.js. A fast paced gardening game.`,
+    pixelArt: true,
     year: 2023,
   },
   {
@@ -81,6 +87,7 @@ export const data: Project[] = [
     title: 'Dungeon Spire',
     website: 'https://dwhiffing.itch.io/dungeon-spire',
     description: `Built With Phaser. A deck building tower defense game.`,
+    pixelArt: true,
     year: 2022,
   },
   {
@@ -105,6 +112,7 @@ export const data: Project[] = [
     title: 'Warloch',
     website: 'https://dwhiffing.github.io/warloch',
     description: `Built With Phaser.js. A top down shooter ARPG made for GGJ 2022.`,
+    pixelArt: true,
     year: 2022,
   },
   {
@@ -117,6 +125,7 @@ export const data: Project[] = [
     title: 'NONOCROSS',
     website: 'https://dwhiffing.itch.io/nonocross/',
     description: `Built With Phaser. A puzzle platforming game made for LOW REZ JAM 2021.`,
+    pixelArt: true,
     year: 2021,
   },
   {
@@ -159,6 +168,7 @@ export const data: Project[] = [
     title: 'Space Crisis',
     website: 'https://dwhiffing.github.io/space-crisis',
     description: `Built With Phaser for Ludum Dare 2020.`,
+    pixelArt: true,
     year: 2020,
   },
   {

@@ -26,17 +26,22 @@ const ProjectListItem = (props: { category: string; project: Project }) => {
 
   return (
     <Link
-      className={`relative justify-end aspect-[20/15] flex flex-col w-[400px] bg-gray-200`}
+      className={`relative flex flex-col bg-gray-200`}
       href={`/${props.category}/${slug}`}
     >
-      <Image
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
         alt="test"
-        layout="fill"
-        className="object-cover"
+        width={400}
+        height={300}
+        className="object-cover w-[400px] aspect-[20/15]"
+        style={{
+          imageRendering: props.project.pixelArt ? 'pixelated' : 'auto',
+        }}
         src={`/assets/images/${slug}.png`}
       />
 
-      <div className="z-10 relative px-3 py-2 flex justify-between text-left bg-black bg-opacity-70">
+      <div className="z-10 px-3 py-2 flex justify-between text-left bg-[#222]">
         <span className="text-white">{label}</span>
         <span className="text-white">{description}</span>
       </div>

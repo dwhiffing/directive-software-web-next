@@ -58,10 +58,12 @@ export const ProjectView = ({
           href={project.website}
           target="_new"
         >
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             alt={project.title}
-            layout="fill"
-            className="object-cover"
+            width={800}
+            height={600}
+            style={{ imageRendering: project.pixelArt ? 'pixelated' : 'auto' }}
             src={`/assets/images/${kebabCase(project.title).toLowerCase()}.png`}
           />
         </a>
