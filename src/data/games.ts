@@ -1,5 +1,11 @@
 export const data: Project[] = [
   {
+    title: 'Eat, Prey, Hop',
+    website: 'https://dwhiffing.itch.io/eat-prey-hop',
+    description: `Built With React for Mini Jam 181. A rabbit themed strategy game.`,
+    year: 2025,
+  },
+  {
     title: 'Snow Motion',
     website: 'https://dwhiffing.itch.io/snow-motion',
     description: `Built With Phaser.js for 1-Bit Jam 2025. An winter themed endless runner.`,
@@ -17,7 +23,7 @@ export const data: Project[] = [
     website: 'https://dwhiffing.itch.io/astrids-apothecary',
     description: `Built With Phaser.js for GB Jam 12. A potion brewing puzzle game.`,
     pixelArt: true,
-    year: 2025,
+    year: 2024,
   },
   {
     title: 'Final Lift',
