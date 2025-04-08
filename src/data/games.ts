@@ -1,5 +1,11 @@
 export const data: Project[] = [
   {
+    title: 'Deepsweeper',
+    website: 'https://dwhiffing.itch.io/deepsweeper',
+    description: `Built With React and three.js for Ludum Dare 57. A naval themed 3D Minesweeper game.`,
+    year: 2025,
+  },
+  {
     title: 'Eat, Prey, Hop',
     website: 'https://dwhiffing.itch.io/eat-prey-hop',
     description: `Built With React for Mini Jam 181. A rabbit themed strategy game.`,
