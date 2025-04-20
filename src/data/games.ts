@@ -1,7 +1,13 @@
 export const data: Project[] = [
   {
+    title: 'Shufflemancer',
+    website: 'https://dwhiffing.itch.io/shufflemancer-v2',
+    description: `Built With React and three.js for Dungeon Crawler Jam 2025. A deck building dungeon crawler.`,
+    year: 2025,
+  },
+  {
     title: 'Deepsweeper',
-    website: 'https://dwhiffing.itch.io/deepsweeper',
+    website: 'https://dwhiffing.itch.io/deepsweeper-v2',
     description: `Built With React and three.js for Ludum Dare 57. A naval themed 3D Minesweeper game.`,
     year: 2025,
   },
