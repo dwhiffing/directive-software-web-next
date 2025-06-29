@@ -1,5 +1,17 @@
 export const data: Project[] = [
   {
+    title: 'Ice Cold Drink',
+    website: 'https://dwhiffing.itch.io/ice-cold-drink',
+    description: `Built With React and three.js for Mini Gim #7. A 3D Maritime trading game.`,
+    year: 2025,
+  },
+  {
+    title: 'Jack of Hearts',
+    website: 'https://dwhiffing.itch.io/jack-of-hearts',
+    description: `Built With Phaser for TOJam 2025. A roguelike action RPG.`,
+    year: 2025,
+  },
+  {
     title: 'Shufflemancer',
     website: 'https://dwhiffing.itch.io/shufflemancer-v2',
     description: `Built With React and three.js for Dungeon Crawler Jam 2025. A deck building dungeon crawler.`,
