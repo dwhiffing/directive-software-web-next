@@ -1,5 +1,23 @@
 export const data: Project[] = [
   {
+    title: 'Waltermelon',
+    website: 'https://dwhiffing.itch.io/waltermelon',
+    description: `Built With Phaser for GBJAM 13. A 2D precision platformer.`,
+    year: 2025,
+  },
+  {
+    title: 'Semi Charmed Kind of Dice',
+    website: 'https://js13kgames.com/2025/games/semi-charmed-kind-of-dice',
+    description: `Built With Vanilla JS for JS13k 2025. A slot machiney dice roller`,
+    year: 2025,
+  },
+  {
+    title: 'Greedy Gauntlet',
+    website: 'https://dwhiffing.itch.io/greedy-gauntlet',
+    description: `Built With Phaser for LowRezJam 2025. A fast paced score chaser`,
+    year: 2025,
+  },
+  {
     title: 'Ice Cold Drink',
     website: 'https://dwhiffing.itch.io/ice-cold-drink',
     description: `Built With React and three.js for Mini Gim #7. A 3D Maritime trading game.`,
