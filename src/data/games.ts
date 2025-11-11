@@ -1,5 +1,11 @@
 export const data: Project[] = [
   {
+    title: 'Impact Window',
+    website: 'https://dwhiffing.itch.io/impact-window',
+    description: `Built With Phaser for ScoreSpace Jam #36. A fast paced smash em up.`,
+    year: 2025,
+  },
+  {
     title: 'Waltermelon',
     website: 'https://dwhiffing.itch.io/waltermelon',
     description: `Built With Phaser for GBJAM 13. A 2D precision platformer.`,
