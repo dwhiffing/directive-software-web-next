@@ -1,5 +1,17 @@
 export const data: Project[] = [
   {
+    title: 'Suit up Solitaire',
+    website: 'https://dwhiffing.github.io/suit-up-solitaire',
+    description: `Built With React. A solitaire variant.`,
+    year: 2026,
+  },
+  {
+    title: 'Slick & Span',
+    website: 'https://dwhiffing.itch.io/slick-span-v2',
+    description: `Built With Phaser for Big Mode Jam 2026. A top-down ocean cleaning game.`,
+    year: 2026,
+  },
+  {
     title: 'Impact Window',
     website: 'https://dwhiffing.itch.io/impact-window',
     description: `Built With Phaser for ScoreSpace Jam #36. A fast paced smash em up.`,
