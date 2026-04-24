@@ -6,6 +6,12 @@ export const data: Project[] = [
     year: 2026,
   },
   {
+    title: 'Moonstone',
+    website: 'https://dwhiffing.itch.io/moonstone',
+    description: `Built With React. A multiplayer card game.`,
+    year: 2026,
+  },
+  {
     title: 'Suit up Solitaire',
     website: 'https://dwhiffing.github.io/suit-up-solitaire',
     description: `Built With React. A solitaire variant.`,
