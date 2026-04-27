@@ -1,5 +1,11 @@
 export const data: Project[] = [
   {
+    title: 'Submersion',
+    website: 'https://dwhiffing.itch.io/submersion',
+    description: `Built With R3F. An underwater survival game.`,
+    year: 2026,
+  },
+  {
     title: 'SOS',
     website: 'https://dwhiffing.itch.io/sos',
     description: `Built With R3F. An morse code based puzzle game.`,
