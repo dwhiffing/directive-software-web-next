@@ -24,7 +24,6 @@ h1 {
 
 h2 {
   @apply pb-3 text-2xl;
-  border-bottom: 1px solid hsla(0, 0%, 0%, 0.14);
 }
 
 h3 {

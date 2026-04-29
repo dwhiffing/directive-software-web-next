@@ -1,3 +1,25 @@
+export const featured = [
+  'Submersion',
+  'Suit up Solitaire',
+  'Greedy Gauntlet',
+
+  'Stranger Changer',
+  'Waltermelon',
+  'Painty Virus',
+
+  'SOS',
+  'Microsquash',
+  'Quintessential',
+
+  'Sentient Edge',
+  'Semi Charmed Kind of Dice',
+  'Lightcycle',
+
+  'Stellar Pendulum',
+  'Poker Blitz',
+  'NONOCROSS',
+]
+
 export const data: Project[] = [
   {
     title: 'Submersion',

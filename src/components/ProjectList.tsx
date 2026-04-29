@@ -1,23 +1,53 @@
+import capitalize from 'lodash/capitalize'
 import kebabCase from 'lodash/kebabCase'
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Layout from './Layout'
-import capitalize from 'lodash/capitalize'
 
-export const ProjectList = (props: { items: Project[]; category: string }) => (
-  <Layout title={capitalize(props.category)}>
-    <div className="flex-1 flex flex-wrap justify-center gap-4">
-      {props.items.map((project, index) => (
-        <ProjectListItem
-          key={index}
-          project={project}
-          category={props.category}
-        />
-      ))}
-    </div>
-  </Layout>
-)
+export const ProjectList = (props: {
+  items: Project[]
+  category: string
+  featured?: string[]
+}) => {
+  const featuredTitles = props.featured ?? []
+  const featured = featuredTitles
+    .map((title) => props.items.find((p) => p.title === title))
+    .filter((p): p is Project => p != null)
+  const rest = props.items
+
+  return (
+    <Layout title={capitalize(props.category)}>
+      {featured.length > 0 && (
+        <div className="w-full mb-16">
+          <h2 className="text-black text-3xl font-semibold my-0 px-2 leading-none">Featured</h2>
+          <div className="flex flex-wrap gap-4">
+            {featured.map((project, index) => (
+              <ProjectListItem
+                key={index}
+                project={project}
+                category={props.category}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+      <div className="w-full">
+        {featured.length > 0 && rest.length > 0 && (
+          <h2 className="text-black text-3xl font-semibold my-0 px-2 leading-none">All</h2>
+        )}
+        <div className="flex-1 flex flex-wrap gap-4">
+          {rest.map((project, index) => (
+            <ProjectListItem
+              key={index}
+              project={project}
+              category={props.category}
+            />
+          ))}
+        </div>
+      </div>
+    </Layout>
+  )
+}
 
 const ProjectListItem = (props: { category: string; project: Project }) => {
   const label = props.project.title
