@@ -22,6 +22,12 @@ export const featured = [
 
 export const data: Project[] = [
   {
+    title: 'Gulpy’s Gambit',
+    website: 'https://dwhiffing.itch.io/gulpys-gambit',
+    description: `Built With Phaser. A deep sea pacman-like`,
+    year: 2026,
+  },
+  {
     title: 'Submersion',
     website: 'https://dwhiffing.itch.io/submersion',
     description: `Built With R3F. An underwater survival game.`,
