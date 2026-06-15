@@ -1,26 +1,32 @@
 export const featured = [
+  'Shuffle Season',
+  'Gulpy’s Gambit',
   'Submersion',
+
   'Suit up Solitaire',
   'Greedy Gauntlet',
-
   'Stranger Changer',
+
   'Waltermelon',
   'Painty Virus',
-
   'SOS',
+
   'Microsquash',
   'Quintessential',
-
   'Sentient Edge',
-  'Semi Charmed Kind of Dice',
-  'Lightcycle',
 
-  'Stellar Pendulum',
+  'Semi Charmed Kind of Dice',
   'Poker Blitz',
   'NONOCROSS',
 ]
 
 export const data: Project[] = [
+  {
+    title: 'Shuffle Season',
+    website: 'https://dwhiffing.itch.io/shuffle-season',
+    description: `Built With Phaser. A gardening deckbuilder.`,
+    year: 2026,
+  },
   {
     title: 'Gulpy’s Gambit',
     website: 'https://dwhiffing.itch.io/gulpys-gambit',
