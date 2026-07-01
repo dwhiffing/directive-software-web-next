@@ -1,7 +1,7 @@
 export const featured = [
+  'Turtle Soup',
   'Shuffle Season',
   'Gulpy’s Gambit',
-  'Submersion',
 
   'Suit up Solitaire',
   'Greedy Gauntlet',
@@ -21,6 +21,12 @@ export const featured = [
 ]
 
 export const data: Project[] = [
+  {
+    title: 'Turtle Soup',
+    website: 'https://dwhiffing.itch.io/turtle-soup',
+    description: `Built With R3F. An atmospheric exploration game.`,
+    year: 2026,
+  },
   {
     title: 'Shuffle Season',
     website: 'https://dwhiffing.itch.io/shuffle-season',
