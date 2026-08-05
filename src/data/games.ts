@@ -22,6 +22,12 @@ export const featured = [
 
 export const data: Project[] = [
   {
+    title: 'Word Croosh',
+    website: 'https://dwhiffing.github.io/word-croosh',
+    description: `Built With React. A scrabble clone.`,
+    year: 2026,
+  },
+  {
     title: 'Turtle Soup',
     website: 'https://dwhiffing.itch.io/turtle-soup',
     description: `Built With R3F. An atmospheric exploration game.`,
