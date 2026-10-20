@@ -1,15 +1,15 @@
 export const featured = [
+  'The Last Rewinder',
   'Turtle Soup',
   'Shuffle Season',
-  'Gulpy’s Gambit',
 
+  'Gulpy’s Gambit',
   'Suit up Solitaire',
   'Greedy Gauntlet',
-  'Stranger Changer',
 
+  'Stranger Changer',
   'Waltermelon',
   'Painty Virus',
-  'SOS',
 
   'Microsquash',
   'Quintessential',
@@ -21,6 +21,24 @@ export const featured = [
 ]
 
 export const data: Project[] = [
+  {
+    title: 'The Last Rewinder',
+    website: 'https://dwhiffing.itch.io/the-last-rewinder',
+    description: `Built With R3F for LD60.  A Blockbuster employee simulator.`,
+    year: 2026,
+  },
+  {
+    title: 'Elder Prism',
+    website: 'https://dwhiffing.itch.io/the-elder-prism',
+    description: `Built With Phaser for GBJAM 2026.  A tile based puzzle game.`,
+    year: 2026,
+  },
+  {
+    title: 'Prismatica',
+    website: 'https://js13kgames.com/2026/games/prismatica',
+    description: `Built With Vanilla JS for JS13K 2026.  A tower defense mining game.`,
+    year: 2026,
+  },
   {
     title: 'Word Croosh',
     website: 'https://dwhiffing.github.io/word-croosh',
